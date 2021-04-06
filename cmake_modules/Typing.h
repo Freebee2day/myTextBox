@@ -21,6 +21,7 @@ private:
     sf::Text msg;           //msg = string for NonColor
     sf::Font font;
     ostringstream input;
+    bool clicked = false;
 
 
 
@@ -46,7 +47,11 @@ public:
 
     void twoSim();
 
-    void updateCursor();
+    //void updateCursor(bool &blinking);
+
+    void clickedOn(bool tf){
+        clicked = tf;
+    }
 
 
 

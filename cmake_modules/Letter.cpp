@@ -8,7 +8,7 @@
 Letter::Letter(char s, float xPos) : myBase(s, xPos) {
     font.loadFromFile("../cmake_modules/OpenSans-Bold.ttf");
     msg.setFont(font);
-    msg.setFillColor(sf::Color::Cyan);
+    msg.setFillColor(sf::Color::White);
     msg.setCharacterSize(50);
     msg.setPosition(xPos,100);
     msg.setString(s);

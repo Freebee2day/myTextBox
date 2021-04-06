@@ -146,9 +146,11 @@ void Typing::drawTo(sf::RenderWindow &window){
 }
 
 void Typing::addEventHandler(sf::Event e){
-    int character= e.text.unicode;
-    if(character<128){
-        captureInput(character);
+    if(clicked) {
+        int character = e.text.unicode;
+        if (character < 128) {
+            captureInput(character);
+        }
     }
 }
 
@@ -188,23 +190,29 @@ bool Typing::checkKey(string key){
 //checking the 3 keywords, if detected => change color by calling replaceKey fxn.
 void Typing::checkAll() {
 
-    if (checkKey("Flag")){
-        replaceKey("Flag");
+    if (checkKey("int")){
+        replaceKey("int");
     }
-    if (checkKey("Keyword")){
-        replaceKey("Keyword");
+    if (checkKey("char")){
+        replaceKey("char");
     }
-    if (checkKey("Hello")){
-        replaceKey("Hello");
+    if (checkKey("double")){
+        replaceKey("double");
+    }
+    if (checkKey("float")){
+        replaceKey("float");
     }
 }
 
 
-//void Typing::updateCursor(){
-//    if(onBlink){
+//void Typing::updateCursor(bool &blinking){
+//    if(blinking){
 //
+//        blinking = false;
+//    }else{
+//
+//        blinking = true;
 //    }
-//
 //}
 
 

@@ -8,7 +8,7 @@
 SpecialChar::SpecialChar(char s, float xPos) : myBase(s, xPos) {
     font.loadFromFile("../cmake_modules/OpenSans-Bold.ttf");
     msg.setFont(font);
-    msg.setFillColor(sf::Color::Red);
+    msg.setFillColor(sf::Color::Green);
     msg.setCharacterSize(50);
     msg.setPosition(xPos,100);
     msg.setString(s);
