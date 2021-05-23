@@ -16,7 +16,7 @@ using namespace std;
 
 
 class Typing {
-private:
+public:
     stack<char> charStack;  //for NonColor DeletedItem
     sf::Text msg;           //msg = string for NonColor
     sf::Font font;
@@ -35,8 +35,6 @@ private:
     bool checkKey(string key);
     void checkAll();
 
-
-public:
 
     Typing();
     void captureInput(int charac);

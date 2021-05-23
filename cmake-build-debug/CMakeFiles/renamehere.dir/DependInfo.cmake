@@ -4,14 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/16262/CLionProjects/duplicate/cmake_modules/Keyword.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Keyword.cpp.obj"
-  "C:/Users/16262/CLionProjects/duplicate/cmake_modules/Letter.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Letter.cpp.obj"
-  "C:/Users/16262/CLionProjects/duplicate/cmake_modules/LetterLower.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/LetterLower.cpp.obj"
-  "C:/Users/16262/CLionProjects/duplicate/cmake_modules/Number.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Number.cpp.obj"
-  "C:/Users/16262/CLionProjects/duplicate/cmake_modules/SpecicalChar.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/SpecicalChar.cpp.obj"
-  "C:/Users/16262/CLionProjects/duplicate/cmake_modules/Typing.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Typing.cpp.obj"
-  "C:/Users/16262/CLionProjects/duplicate/cmake_modules/myBase.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/myBase.cpp.obj"
-  "C:/Users/16262/CLionProjects/duplicate/main.cpp" "C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/CMakeFiles/renamehere.dir/main.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/Keyword.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Keyword.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/Letter.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Letter.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/LetterLower.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/LetterLower.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/Menu.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Menu.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/MenuItem.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/MenuItem.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/Number.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Number.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/Slider.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Slider.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/SpecicalChar.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/SpecicalChar.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/Typing.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/Typing.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/cmake_modules/myBase.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/cmake_modules/myBase.cpp.obj"
+  "C:/Users/16262/Desktop/myTextBox/main.cpp" "C:/Users/16262/Desktop/myTextBox/cmake-build-debug/CMakeFiles/renamehere.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

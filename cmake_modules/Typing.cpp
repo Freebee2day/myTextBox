@@ -18,7 +18,7 @@ Typing::Typing(){
     //msg.setString("in typing!!");  //string will be set by user input.
     msg.setFillColor(sf::Color::White);
     msg.setCharacterSize(50);
-    msg.setPosition(100,600);
+    msg.setPosition(100,300);
 
 //    rec.setFillColor(sf::Color::Transparent);
 //    rec.setOutlineThickness(5);

@@ -676,7 +676,45 @@ SFML/Config.hpp
 
 C:/SFML-2.5.1-windows-gcc-7.3.0-mingw-32-bit/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/16262/CLionProjects/duplicate/cmake_modules/SpecicalChar.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/Menu.h
+iostream
+-
+sstream
+-
+SFML/Graphics.hpp
+-
+stack
+-
+list
+-
+MenuItem.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/MenuItem.h
+
+C:/Users/16262/Desktop/myTextBox/cmake_modules/MenuItem.h
+iostream
+-
+sstream
+-
+SFML/Graphics.hpp
+-
+stack
+-
+list
+-
+
+C:/Users/16262/Desktop/myTextBox/cmake_modules/Slider.h
+iostream
+-
+sstream
+-
+SFML/Graphics.hpp
+-
+stack
+-
+list
+-
+
+C:/Users/16262/Desktop/myTextBox/cmake_modules/SpecicalChar.h
 iostream
 -
 sstream
@@ -684,9 +722,9 @@ sstream
 SFML/Graphics.hpp
 -
 myBase.h
-C:/Users/16262/CLionProjects/duplicate/cmake_modules/myBase.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/myBase.h
 
-C:/Users/16262/CLionProjects/duplicate/cmake_modules/Typing.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/Typing.h
 iostream
 -
 sstream
@@ -698,11 +736,11 @@ stack
 list
 -
 SpecicalChar.h
-C:/Users/16262/CLionProjects/duplicate/cmake_modules/SpecicalChar.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/SpecicalChar.h
 myBase.h
-C:/Users/16262/CLionProjects/duplicate/cmake_modules/myBase.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/myBase.h
 
-C:/Users/16262/CLionProjects/duplicate/cmake_modules/myBase.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/myBase.h
 iostream
 -
 sstream
@@ -710,7 +748,7 @@ sstream
 SFML/Graphics.hpp
 -
 
-C:/Users/16262/CLionProjects/duplicate/main.cpp
+C:/Users/16262/Desktop/myTextBox/main.cpp
 iostream
 -
 sstream
@@ -718,5 +756,9 @@ sstream
 SFML/Graphics.hpp
 -
 cmake_modules/Typing.h
-C:/Users/16262/CLionProjects/duplicate/cmake_modules/Typing.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/Typing.h
+cmake_modules/Slider.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/Slider.h
+cmake_modules/Menu.h
+C:/Users/16262/Desktop/myTextBox/cmake_modules/Menu.h
 

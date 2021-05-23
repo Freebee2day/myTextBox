@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -static")
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp cmake_modules/Typing.cpp cmake_modules/Typing.h cmake_modules/SpecicalChar.cpp cmake_modules/SpecicalChar.h cmake_modules/Letter.cpp cmake_modules/Letter.h cmake_modules/LetterLower.cpp cmake_modules/LetterLower.h cmake_modules/Number.cpp cmake_modules/Number.h cmake_modules/Keyword.cpp cmake_modules/Keyword.h cmake_modules/myBase.cpp cmake_modules/myBase.h)
+set(SOURCE_FILES main.cpp cmake_modules/Typing.cpp cmake_modules/Typing.h cmake_modules/SpecicalChar.cpp cmake_modules/SpecicalChar.h cmake_modules/Letter.cpp cmake_modules/Letter.h cmake_modules/LetterLower.cpp cmake_modules/LetterLower.h cmake_modules/Number.cpp cmake_modules/Number.h cmake_modules/Keyword.cpp cmake_modules/Keyword.h cmake_modules/myBase.cpp cmake_modules/myBase.h cmake_modules/Slider.cpp cmake_modules/Slider.h cmake_modules/Menu.cpp cmake_modules/Menu.h cmake_modules/MenuItem.cpp cmake_modules/MenuItem.h)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Release")
     add_executable(${PROJECT_NAME} WIN32 ${SOURCE_FILES})

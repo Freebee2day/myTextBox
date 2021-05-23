@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/16262/CLionProjects/duplicate/cmake-build-debug"/>
+				<Option working_dir="C:/Users/16262/Desktop/myTextBox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/16262/CLionProjects/duplicate/cmake-build-debug"/>
+				<Option working_dir="C:/Users/16262/Desktop/myTextBox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="renamehere">
-				<Option output="C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/renamehere.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/16262/CLionProjects/duplicate/cmake-build-debug"/>
+				<Option output="C:/Users/16262/Desktop/myTextBox/cmake-build-debug/renamehere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/16262/Desktop/myTextBox/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 renamehere"/>
-					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 renamehere"/>
+					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="renamehere/fast">
-				<Option output="C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/renamehere.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/16262/CLionProjects/duplicate/cmake-build-debug"/>
+				<Option output="C:/Users/16262/Desktop/myTextBox/cmake-build-debug/renamehere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/16262/Desktop/myTextBox/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,72 +67,90 @@
 					<Add directory="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 renamehere/fast"/>
-					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 renamehere/fast"/>
+					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/16262/CLionProjects/duplicate/cmake-build-debug"/>
+				<Option working_dir="C:/Users/16262/Desktop/myTextBox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/CLionProjects/duplicate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/16262/Desktop/myTextBox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Keyword.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Keyword.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Keyword.h">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Keyword.h">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Letter.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Letter.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Letter.h">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Letter.h">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/LetterLower.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/LetterLower.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/LetterLower.h">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/LetterLower.h">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Number.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Menu.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Number.h">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Menu.h">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/SpecicalChar.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/MenuItem.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/SpecicalChar.h">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/MenuItem.h">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Typing.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Number.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/Typing.h">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Number.h">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/myBase.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Slider.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/myBase.h">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Slider.h">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/main.cpp">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/SpecicalChar.cpp">
 			<Option target="renamehere"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/CMakeLists.txt">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/SpecicalChar.h">
+			<Option target="renamehere"/>
+		</Unit>
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Typing.cpp">
+			<Option target="renamehere"/>
+		</Unit>
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/Typing.h">
+			<Option target="renamehere"/>
+		</Unit>
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/myBase.cpp">
+			<Option target="renamehere"/>
+		</Unit>
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/myBase.h">
+			<Option target="renamehere"/>
+		</Unit>
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/main.cpp">
+			<Option target="renamehere"/>
+		</Unit>
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/16262/CLionProjects/duplicate/cmake_modules/FindSFML.cmake">
+		<Unit filename="C:/Users/16262/Desktop/myTextBox/cmake_modules/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>

@@ -10,7 +10,7 @@ Letter::Letter(char s, float xPos) : myBase(s, xPos) {
     msg.setFont(font);
     msg.setFillColor(sf::Color::White);
     msg.setCharacterSize(50);
-    msg.setPosition(xPos,100);
+    msg.setPosition(xPos,300);
     msg.setString(s);
 }
 

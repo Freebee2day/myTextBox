@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\16262\CLionProjects\duplicate
+CMAKE_SOURCE_DIR = C:\Users\16262\Desktop\myTextBox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\16262\CLionProjects\duplicate\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\16262\Desktop\myTextBox\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\16262\CLionProjects\duplicate\cmake-build-debug\CMakeFiles C:\Users\16262\CLionProjects\duplicate\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\16262\Desktop\myTextBox\cmake-build-debug\CMakeFiles C:\Users\16262\Desktop\myTextBox\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\16262\CLionProjects\duplicate\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\16262\Desktop\myTextBox\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -223,6 +223,60 @@ cmake_modules/LetterLower.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/LetterLower.cpp.s
 .PHONY : cmake_modules/LetterLower.cpp.s
 
+cmake_modules/Menu.obj: cmake_modules/Menu.cpp.obj
+
+.PHONY : cmake_modules/Menu.obj
+
+# target to build an object file
+cmake_modules/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/Menu.cpp.obj
+.PHONY : cmake_modules/Menu.cpp.obj
+
+cmake_modules/Menu.i: cmake_modules/Menu.cpp.i
+
+.PHONY : cmake_modules/Menu.i
+
+# target to preprocess a source file
+cmake_modules/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/Menu.cpp.i
+.PHONY : cmake_modules/Menu.cpp.i
+
+cmake_modules/Menu.s: cmake_modules/Menu.cpp.s
+
+.PHONY : cmake_modules/Menu.s
+
+# target to generate assembly for a file
+cmake_modules/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/Menu.cpp.s
+.PHONY : cmake_modules/Menu.cpp.s
+
+cmake_modules/MenuItem.obj: cmake_modules/MenuItem.cpp.obj
+
+.PHONY : cmake_modules/MenuItem.obj
+
+# target to build an object file
+cmake_modules/MenuItem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/MenuItem.cpp.obj
+.PHONY : cmake_modules/MenuItem.cpp.obj
+
+cmake_modules/MenuItem.i: cmake_modules/MenuItem.cpp.i
+
+.PHONY : cmake_modules/MenuItem.i
+
+# target to preprocess a source file
+cmake_modules/MenuItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/MenuItem.cpp.i
+.PHONY : cmake_modules/MenuItem.cpp.i
+
+cmake_modules/MenuItem.s: cmake_modules/MenuItem.cpp.s
+
+.PHONY : cmake_modules/MenuItem.s
+
+# target to generate assembly for a file
+cmake_modules/MenuItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/MenuItem.cpp.s
+.PHONY : cmake_modules/MenuItem.cpp.s
+
 cmake_modules/Number.obj: cmake_modules/Number.cpp.obj
 
 .PHONY : cmake_modules/Number.obj
@@ -249,6 +303,33 @@ cmake_modules/Number.s: cmake_modules/Number.cpp.s
 cmake_modules/Number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/Number.cpp.s
 .PHONY : cmake_modules/Number.cpp.s
+
+cmake_modules/Slider.obj: cmake_modules/Slider.cpp.obj
+
+.PHONY : cmake_modules/Slider.obj
+
+# target to build an object file
+cmake_modules/Slider.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/Slider.cpp.obj
+.PHONY : cmake_modules/Slider.cpp.obj
+
+cmake_modules/Slider.i: cmake_modules/Slider.cpp.i
+
+.PHONY : cmake_modules/Slider.i
+
+# target to preprocess a source file
+cmake_modules/Slider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/Slider.cpp.i
+.PHONY : cmake_modules/Slider.cpp.i
+
+cmake_modules/Slider.s: cmake_modules/Slider.cpp.s
+
+.PHONY : cmake_modules/Slider.s
+
+# target to generate assembly for a file
+cmake_modules/Slider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\renamehere.dir\build.make CMakeFiles/renamehere.dir/cmake_modules/Slider.cpp.s
+.PHONY : cmake_modules/Slider.cpp.s
 
 cmake_modules/SpecicalChar.obj: cmake_modules/SpecicalChar.cpp.obj
 
@@ -376,9 +457,18 @@ help:
 	@echo ... cmake_modules/LetterLower.obj
 	@echo ... cmake_modules/LetterLower.i
 	@echo ... cmake_modules/LetterLower.s
+	@echo ... cmake_modules/Menu.obj
+	@echo ... cmake_modules/Menu.i
+	@echo ... cmake_modules/Menu.s
+	@echo ... cmake_modules/MenuItem.obj
+	@echo ... cmake_modules/MenuItem.i
+	@echo ... cmake_modules/MenuItem.s
 	@echo ... cmake_modules/Number.obj
 	@echo ... cmake_modules/Number.i
 	@echo ... cmake_modules/Number.s
+	@echo ... cmake_modules/Slider.obj
+	@echo ... cmake_modules/Slider.i
+	@echo ... cmake_modules/Slider.s
 	@echo ... cmake_modules/SpecicalChar.obj
 	@echo ... cmake_modules/SpecicalChar.i
 	@echo ... cmake_modules/SpecicalChar.s
