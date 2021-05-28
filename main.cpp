@@ -73,11 +73,15 @@ int main() {
     Slider label_rotate("Rotate",100,500,400,850);
     //bool onBlink = true;
 
-    vector<string> fontList ={"OpenSans", "Amatic", "Pacifico"};
-    Menu fontMenu(100,800,"Font",fontList);
 
     vector<string> optionList ={"Option", "Save", "Exit"};
     Menu optionMenu(730,8,"",optionList);
+
+    vector<string> fontList ={"OpenSans", "Amatic", "Pacifico"};
+    Menu fontMenu(100,800,"Font",fontList);
+
+    vector<string> colorList ={"White","Red", "Green", "Blue"};
+    Menu colorMenu(400,800,"Color",colorList);
 
     while(window.isOpen())
     {
@@ -161,6 +165,35 @@ int main() {
                     }
                 }
 
+                //check Color Menu subItems:
+                if(colorMenu.clicked){
+                    for(int i=0;i<colorMenu.processedMenuItems.size();i++){
+                        auto item = colorMenu.processedMenuItems[i];
+                        if( x> item->itmx-10 &&
+                            x< item->itmx-10+150 &&
+                            y> item->itmy-30 &&
+                            y< item->itmy){
+                            colorMenu.selectedName.setString(item->label.getString());
+                            switch(i){
+                                case 0:
+                                    break;
+                                case 1:
+                                    label.setFillColor(sf::Color::Red);
+                                    break;
+                                case 2:
+                                    label.setFillColor(sf::Color::Green);
+                                    break;
+                                case 3:
+                                    label.setFillColor(sf::Color::Blue);
+                                    break;
+                                default:
+                                    label.setFillColor(sf::Color::White);
+                                    break;
+                            }
+                        }
+                    }
+                }
+
                 //check menu
                 if( x>fontMenu.orgX+100 && x<fontMenu.orgX+100+150
                     && y>fontMenu.orgY && y<fontMenu.orgY+30){   //check if mouse clicked on the textbox
@@ -181,6 +214,18 @@ int main() {
                 }else{
                     optionMenu.clicked =false;
                     optionMenu.box.setOutlineColor(sf::Color::White);
+                }
+
+                //check color menu
+                if( x>colorMenu.orgX+100 &&
+                    x<colorMenu.orgX+100+150&&
+                    y>colorMenu.orgY &&
+                    y<colorMenu.orgY+30){   //check if mouse clicked on the textbox
+                    colorMenu.box.setOutlineColor(sf::Color::Yellow);
+                    colorMenu.clicked = true;
+                }else{
+                    colorMenu.clicked =false;
+                    colorMenu.box.setOutlineColor(sf::Color::White);
                 }
 
 
@@ -370,9 +415,12 @@ int main() {
         shadow_vertical.drawTo(window);
         label_opacity.drawTo(window);
         shadow_opacity.drawTo(window);
+
+
         label_rotate.drawTo(window);
         fontMenu.drawTo(window);
         optionMenu.drawTo(window);
+        colorMenu.drawTo(window);
 
         window.draw(box);
         window.display();
